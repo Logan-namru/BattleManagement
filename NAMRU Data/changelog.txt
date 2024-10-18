@@ -1,0 +1,109 @@
+Version
+0.02
+3/29/2024
+* Improved Debugging on backend
+* Added start menu options buttons and options submenu
+* Added hotkey for enabling/disabling debug features
+* Made debug start turned off by default
+* Added flags on the backend for deciding whether to use data output.
+* Added persistant targeting lines to friendly aircraft.
+* Fixed some logic issues with targeting aircraft
+* Added slew controller functioning
+
+Version
+0.03
+4/11/2024
+* Implemented new file logging architecture.
+* Implemented new changelog/versioning system.
+* Implemented new logic for allowing app to automatically go past start screen.
+
+Version
+0.04
+4/12/2024
+* Moved all data writing and reading operations to the NamruSessionmanager
+* Implemented decision making for which directory to use for reading/writing data depending on whether the app is being run from the editor or build.
+* Error Log fixes
+
+Version
+0.05
+4/19/2024
+* Implemented pausing
+* Implemented battle start operations
+* Made copies of the 5 battle scenarios
+* Added recentering operation for xr headsets
+* Added quad movement debug functionality
+* Threading fixes
+* UDP handling fixes
+* Made momentary debug logger always show errors and warnings
+* render texture set to semi transparent for testing
+
+Version
+0.06
+4/24/2024
+* Placed render quad in Hank-approved position
+* Debug fixes/improvements
+* Added connect button to start screen
+* Implemented fennec data sending
+* Implemented quad hide via controller input.
+
+Version
+0.07
+4/26/2024
+* Added fennec data sending
+* Added ini functionality for setting fennec ip address and quad position via ini file
+* Added fennec sending of kill counts and cursor position
+* Fixed issue where missiles weren't being properly disposed on loading of new battle scenario.
+* Implemented controller axis differentiation features 
+
+Version
+0.08
+5/8/2024
+* Added new background image
+* Made target line thicker like original app
+* Slowed aircraft like in original app
+* Made friendlies easier to select when overlapping with enemies.
+* Added neutral aircraft
+* Fixed bug with controller selection option
+
+Version
+0.09
+5/10/2024
+* Added some controller differentiation features
+
+Version
+0.11
+6/6/2024
+* Added camera recentering features.
+
+Version
+0.12
+6/?/2024
+* Fix for controller selection of hide quad button.
+* Added ability of controller options dropdowns to default correctly to the default controllers.
+
+Version
+1.2
+8/19/2024
+* Bundled connect button and start button functionality together.
+
+Version
+1.3
+8/??/2024
+* ??
+
+Version
+1.4
+10/09/2024
+* Implemented device saving
+* Minimized options menu
+
+Version
+1.5
+10/10/2024
+* Improved cursor selection when aircraft are overlapping.
+* Fixed line renderer flicker issue.
+
+Version
+1.6
+10/17/2024
+* Changed dismiss button

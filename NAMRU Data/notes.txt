@@ -1,0 +1,30 @@
+@127.0.0.1:11000;scenario=1
+@127.0.0.1:11000;scenario=2
+@127.0.0.1:11000;scenario=3
+@127.0.0.1:11000;scenario=4
+@127.0.0.1:11000;scenario=5
+@127.0.0.1:11000;pause=0
+@127.0.0.1:11000;pause=1
+@127.0.0.1:11000;show=0
+@127.0.0.1:11000;show=1
+
+quad pos: -27, -4.52 -4.4
+
+@10.10.10.105:11000;scenario=1
+
+
+friendlies:
+move speed: 0.1
+rot speed: 0.3
+
+enemy craft:
+move speed: 0.075
+
+keys for moving the quad:
+Keypad 7 (up)
+keypad 1 (down)
+keypad 6 (right)
+keypad 4 (left)
+keypad 8 (forward)
+keypad 2 (backward)
+

@@ -1,0 +1,43 @@
+Created log at: '10/17/2024 1:03:11 PM'
+sessionmanager says it's using ini. Now asking it to read the ini values...
+NamruSessionManager.TryToLoadIni()
+Found ini file at default path. Attempting to load ini file...
+Located and read ini file...
+DataManager.ValidateAndHandleIniFile().
+IniValues.length: '2'
+DataManager.CSVstringToVector3()
+DataManager decided quad position WAS valid...
+Read quad position: '(-27.00, -4.52, -4.40)'
+Read fennec ip address: '127.0.0.1'
+NamruSessionManager.StartFennec()
+NamruSessionManager.StartFennec end
+[[---Data Manager---]] > DataManager.Awake() end
+[[---Game Manager---]] > GameManager.Awake()
+[[---Game Manager---]] > GameManager.Instance was null.
+[[---Game Manager---]] > GameManager.Awake() end
+BM_SceneManager.Awake()
+[[---Scene Manager---]] > BM_SceneManager.Instance was null. Setting singleton reference to this...
+BM_SceneManager.Awake() end
+[[---Session Manager---]] > NamruSessionManager.Start()
+[[---Session Manager---]] > NamruSessionManager.Start() end
+[[---Debug Manager---]] > DebugManager.Start()
+[[---Debug Manager---]] > DebugManager.Start() end
+[[---Data Manager---]] > DataManager.Start()
+got cursor device plrpref key of 'Controller (Xbox One For Windows)'. Finding this device in loaded list...
+Default cursor device name WAS present in app settings as ('Controller (Xbox One For Windows)'), and found in list of connected devices.
+Default 'hide quad' device name WAS present in app settings as ('Controller (Xbox One For Windows)'), and found in list of connected devices.
+[[---Data Manager---]] > DataManager.Start() end
+[[---Game Manager---]] > GameManager.Start()
+[[---Game Manager---]] > GameManager.Start() end
+BM_SceneManager.Start()
+BM_SceneManager.Start() end
+LogansCanvasCursor.CalculateBoundsAndLayerMasks() start
+LogansCanvasCursor.CalculateBoundsAndLayerMasks() end. boundX: '960', boundY: '522.7546'
+StartSceneCanvas.Start() begin.
+StartSceneCanvas.Start() end.
+GameManager.ProtectedQuit()
+NamruSessionManager.CloseMe()
+NamruSessionManager.CloseUDPConnection()
+Was going to close udpClient, but found it was already null...
+NamruSessionManager.CloseUDPConnection() end
+NamruSessionManager.DisposeAllWriters()

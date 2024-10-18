@@ -1,0 +1,19 @@
+*Updated 3/25/2024
+
+Setting up LFP in your scene:
+  * Place The LogansFilePicker prefab on your canvas.
+  * Activate/Deactivate the groups in the heirarchy based on what you need.
+
+Controlling LFP at runtime:
+  * The Path group allows you to set a path in the text input field and click the > button to load that path.
+  * The Assets Folder button resets the path to point back to the Assets folder and loads those entries.
+  * Make Default button does nothing by default, but allows you to optionally use your code to create a button press event to conveniently set a default path via your own code.
+ 
+
+Scripting:
+The main script is a "manager" script called LogansFilePicker.cs
+  * An outside (user) script should use LogansFilePicker.SelectedDirPathString to get the currently-selected directory path.
+  * An outside (user) script should use LogansFilePicker.SelectedFilePathString to get the currently-selected file path.
+
+Notes:
+  * Trigger LFP on and off simply by enabling/disabling the gameobject via reference in your script
