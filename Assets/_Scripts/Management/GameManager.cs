@@ -48,7 +48,10 @@ public class GameManager : BM_Object_mono
 
 	private int count_enemiesKilledInEntireTrial = 0;
 	public int Count_enemiesKilledInEntireTrial => count_enemiesKilledInEntireTrial;
-
+	/// <summary>Flag that gets set to 1 when the render quad is visible, and 0 when not visible. Using an int instead of bool because it makes it simpler to send to fennec</summary>
+	private int flag_renderQuadVisible = 1;
+    /// <summary>Flag that gets set to 1 when the render quad is visible, and 0 when not visible. Using an int instead of bool because it makes it simpler to send to fennec</summary>
+    public int Flag_renderQuadVisible => flag_renderQuadVisible;
 
 	[Header("CONTROLS")]
     public static float Speed_axisControls = 160f;
@@ -299,7 +302,9 @@ public class GameManager : BM_Object_mono
 	public void ShowRenderQuad()
 	{
 		NAMRU_Debug.Log($"{nameof(GameManager)}.{nameof(ShowRenderQuad)}()", BM_Enums.LogDestination.console );
+
 		renderQuad.SetActive( true );
+		flag_renderQuadVisible = 1;
 
 		NAMRU_Debug.Log($"{nameof(GameManager)}.{nameof(ShowRenderQuad)}() end", BM_Enums.LogDestination.none );
 	}
@@ -308,7 +313,9 @@ public class GameManager : BM_Object_mono
 	public void HideRenderQuad()
 	{
 		NAMRU_Debug.Log( $"{nameof(GameManager)}.{nameof(HideRenderQuad)}()", BM_Enums.LogDestination.console );
+
 		renderQuad.SetActive( false );
+		flag_renderQuadVisible = 0;
 
 		NAMRU_Debug.Log( $"{nameof(GameManager)}.{nameof(HideRenderQuad)}() end", BM_Enums.LogDestination.none );
 	}

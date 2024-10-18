@@ -205,8 +205,10 @@ public class DataManager : BM_Object_mono
 
 			NamruSessionManager.Instance.SendToFennec($"BM_ScenarioKillcount", GameManager.Instance.Count_enemiesKilledInCurrentScenario);
 			NamruSessionManager.Instance.SendToFennec($"BM_TotalKillcount", GameManager.Instance.Count_enemiesKilledInEntireTrial, true);
-		}
-	}
+            NamruSessionManager.Instance.SendToFennec($"BM_QuadVisible", GameManager.Instance.Flag_renderQuadVisible, true);
+
+        }
+    }
 
 	public bool ValidateAndHandleIniFile()
 	{

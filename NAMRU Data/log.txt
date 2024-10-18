@@ -1,4 +1,4 @@
-Created log at: '10/17/2024 1:03:11 PM'
+Created log at: '10/18/2024 10:08:35 AM'
 sessionmanager says it's using ini. Now asking it to read the ini values...
 NamruSessionManager.TryToLoadIni()
 Found ini file at default path. Attempting to load ini file...
@@ -7,7 +7,7 @@ DataManager.ValidateAndHandleIniFile().
 IniValues.length: '2'
 DataManager.CSVstringToVector3()
 DataManager decided quad position WAS valid...
-Read quad position: '(-27.00, -4.52, -4.40)'
+Read quad position: '(-25.80, -5.12, -4.40)'
 Read fennec ip address: '127.0.0.1'
 NamruSessionManager.StartFennec()
 NamruSessionManager.StartFennec end
@@ -35,9 +35,346 @@ LogansCanvasCursor.CalculateBoundsAndLayerMasks() start
 LogansCanvasCursor.CalculateBoundsAndLayerMasks() end. boundX: '960', boundY: '522.7546'
 StartSceneCanvas.Start() begin.
 StartSceneCanvas.Start() end.
+StartSceneCanvas.UI_Btn_Start_action
+[[---Session Manager---]] > NamruSessionManager.StartUDPListening()
+UDP client initialization did not error. Now initializing listener thread...
+[[---Session Manager---]] > NamruSessionManager.StartUDPListening() end. Returning true...
+>>>>>>>>>>>>>>>>>>>>>>>>>>>BM_SceneManager.ChangeScene(1)<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[[---Debug Manager---]] > DebugManager.Awake()
+[[---DATA Manager---]] > DataManager.Awake()
+[[---DATA Manager---]] > DataManager.Instance was NOT null. Destroying this...
+[[---DATA Manager---]] > DataManager.Awake() end
+[[---Game Manager---]] > GameManager.Awake()
+[[---Game Manager---]] > GameManager.Instance was NOT null. Handing off to new manager...
+[[---Game Manager---]] > GameManager.HandoffSingleton()
+[[---Game Manager---]] > GameManager.Awake() end
+BM_SceneManager.Awake()
+[[---Scene Manager---]] > BM_SceneManager.Instance was NOT null. Destroying this...
+BM_SceneManager.Awake() end
+[[---Debug Manager---]] > DebugManager.Start()
+[[---Debug Manager---]] > DebugManager.Start() end
+[[---Game Manager---]] > GameManager.Start()
+[[---Game Manager---]] > GameManager.PlaceQuad((-25.80, -5.12, -4.40))
+GameManager.RecenterVRCamera()
+GameManager.RecenterVRCamera() end
+[[---Game Manager---]] > GameManager.Start() end
+LogansCanvasCursor.CalculateBoundsAndLayerMasks() start
+LogansCanvasCursor.CalculateBoundsAndLayerMasks() end. boundX: '960.0001', boundY: '540'
+Debug key triggered...
+ToggleDebugFeatures()
+GlobalDebugOn: 'True'
+DebugCanvas loading scenario 2 from keypress...
+GameManager.LoadScenario(1)<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[Group] - Aircraft > AircraftManager.LoadScenario()
+Now deleting enemies...
+enemyAircraftList not null. Deleting '0' aircraft...
+End of iterating. enemyAircraftList.Count now: '0'
+Now creating enemies...
+scenario.enemyPositions not null and above 0. Creating '33' aircraft...
+iterating craft number: '0'
+[Group] - Aircraft > AircraftManager.RegisterEnemy()
+[Group] - Aircraft > AircraftManager.RegisterEnemy() end
+iterating craft number: '1'
+[Group] - Aircraft > AircraftManager.RegisterEnemy()
+[Group] - Aircraft > AircraftManager.RegisterEnemy() end
+iterating craft number: '2'
+[Group] - Aircraft > AircraftManager.RegisterEnemy()
+[Group] - Aircraft > AircraftManager.RegisterEnemy() end
+iterating craft number: '3'
+[Group] - Aircraft > AircraftManager.RegisterEnemy()
+[Group] - Aircraft > AircraftManager.RegisterEnemy() end
+iterating craft number: '4'
+[Group] - Aircraft > AircraftManager.RegisterEnemy()
+[Group] - Aircraft > AircraftManager.RegisterEnemy() end
+iterating craft number: '5'
+[Group] - Aircraft > AircraftManager.RegisterEnemy()
+[Group] - Aircraft > AircraftManager.RegisterEnemy() end
+iterating craft number: '6'
+[Group] - Aircraft > AircraftManager.RegisterEnemy()
+[Group] - Aircraft > AircraftManager.RegisterEnemy() end
+iterating craft number: '7'
+[Group] - Aircraft > AircraftManager.RegisterEnemy()
+[Group] - Aircraft > AircraftManager.RegisterEnemy() end
+iterating craft number: '8'
+[Group] - Aircraft > AircraftManager.RegisterEnemy()
+[Group] - Aircraft > AircraftManager.RegisterEnemy() end
+iterating craft number: '9'
+[Group] - Aircraft > AircraftManager.RegisterEnemy()
+[Group] - Aircraft > AircraftManager.RegisterEnemy() end
+iterating craft number: '10'
+[Group] - Aircraft > AircraftManager.RegisterEnemy()
+[Group] - Aircraft > AircraftManager.RegisterEnemy() end
+iterating craft number: '11'
+[Group] - Aircraft > AircraftManager.RegisterEnemy()
+[Group] - Aircraft > AircraftManager.RegisterEnemy() end
+iterating craft number: '12'
+[Group] - Aircraft > AircraftManager.RegisterEnemy()
+[Group] - Aircraft > AircraftManager.RegisterEnemy() end
+iterating craft number: '13'
+[Group] - Aircraft > AircraftManager.RegisterEnemy()
+[Group] - Aircraft > AircraftManager.RegisterEnemy() end
+iterating craft number: '14'
+[Group] - Aircraft > AircraftManager.RegisterEnemy()
+[Group] - Aircraft > AircraftManager.RegisterEnemy() end
+iterating craft number: '15'
+[Group] - Aircraft > AircraftManager.RegisterEnemy()
+[Group] - Aircraft > AircraftManager.RegisterEnemy() end
+iterating craft number: '16'
+[Group] - Aircraft > AircraftManager.RegisterEnemy()
+[Group] - Aircraft > AircraftManager.RegisterEnemy() end
+iterating craft number: '17'
+[Group] - Aircraft > AircraftManager.RegisterEnemy()
+[Group] - Aircraft > AircraftManager.RegisterEnemy() end
+iterating craft number: '18'
+[Group] - Aircraft > AircraftManager.RegisterEnemy()
+[Group] - Aircraft > AircraftManager.RegisterEnemy() end
+iterating craft number: '19'
+[Group] - Aircraft > AircraftManager.RegisterEnemy()
+[Group] - Aircraft > AircraftManager.RegisterEnemy() end
+iterating craft number: '20'
+[Group] - Aircraft > AircraftManager.RegisterEnemy()
+[Group] - Aircraft > AircraftManager.RegisterEnemy() end
+iterating craft number: '21'
+[Group] - Aircraft > AircraftManager.RegisterEnemy()
+[Group] - Aircraft > AircraftManager.RegisterEnemy() end
+iterating craft number: '22'
+[Group] - Aircraft > AircraftManager.RegisterEnemy()
+[Group] - Aircraft > AircraftManager.RegisterEnemy() end
+iterating craft number: '23'
+[Group] - Aircraft > AircraftManager.RegisterEnemy()
+[Group] - Aircraft > AircraftManager.RegisterEnemy() end
+iterating craft number: '24'
+[Group] - Aircraft > AircraftManager.RegisterEnemy()
+[Group] - Aircraft > AircraftManager.RegisterEnemy() end
+iterating craft number: '25'
+[Group] - Aircraft > AircraftManager.RegisterEnemy()
+[Group] - Aircraft > AircraftManager.RegisterEnemy() end
+iterating craft number: '26'
+[Group] - Aircraft > AircraftManager.RegisterEnemy()
+[Group] - Aircraft > AircraftManager.RegisterEnemy() end
+iterating craft number: '27'
+[Group] - Aircraft > AircraftManager.RegisterEnemy()
+[Group] - Aircraft > AircraftManager.RegisterEnemy() end
+iterating craft number: '28'
+[Group] - Aircraft > AircraftManager.RegisterEnemy()
+[Group] - Aircraft > AircraftManager.RegisterEnemy() end
+iterating craft number: '29'
+[Group] - Aircraft > AircraftManager.RegisterEnemy()
+[Group] - Aircraft > AircraftManager.RegisterEnemy() end
+iterating craft number: '30'
+[Group] - Aircraft > AircraftManager.RegisterEnemy()
+[Group] - Aircraft > AircraftManager.RegisterEnemy() end
+iterating craft number: '31'
+[Group] - Aircraft > AircraftManager.RegisterEnemy()
+[Group] - Aircraft > AircraftManager.RegisterEnemy() end
+iterating craft number: '32'
+[Group] - Aircraft > AircraftManager.RegisterEnemy()
+[Group] - Aircraft > AircraftManager.RegisterEnemy() end
+scenario.neutralPositions not null and above 0. Creating '3' aircraft...
+iterating craft number: '0'
+[Group] - Aircraft > AircraftManager.RegisterEnemy()
+[Group] - Aircraft > AircraftManager.RegisterEnemy() end
+iterating craft number: '1'
+[Group] - Aircraft > AircraftManager.RegisterEnemy()
+[Group] - Aircraft > AircraftManager.RegisterEnemy() end
+iterating craft number: '2'
+[Group] - Aircraft > AircraftManager.RegisterEnemy()
+[Group] - Aircraft > AircraftManager.RegisterEnemy() end
+Now deleting friendlies...
+friendlyAircraftList not null. Deleting '0' aircraft...
+End of iterating. friendlyAircraftList.Count now: '0'
+Now creating friendlies...
+scenario.friendlyPositions not null and above 0. Creating '10' aircraft...
+iterating craft number: '0'
+Aircraft (variant) - Friendly(Clone) > FriendlyAircraft.Awake()
+Missile constructor
+Missile(Clone) > Missile.Init
+Aircraft (variant) - Friendly(Clone) > FriendlyAircraft.Awake() end
+[Group] - Aircraft > AircraftManager.RegisterFriendly()
+[Group] - Aircraft > AircraftManager.RegisterFriendly() end
+iterating craft number: '1'
+Aircraft (variant) - Friendly(Clone) > FriendlyAircraft.Awake()
+Missile constructor
+Missile(Clone) > Missile.Init
+Aircraft (variant) - Friendly(Clone) > FriendlyAircraft.Awake() end
+[Group] - Aircraft > AircraftManager.RegisterFriendly()
+[Group] - Aircraft > AircraftManager.RegisterFriendly() end
+iterating craft number: '2'
+Aircraft (variant) - Friendly(Clone) > FriendlyAircraft.Awake()
+Missile constructor
+Missile(Clone) > Missile.Init
+Aircraft (variant) - Friendly(Clone) > FriendlyAircraft.Awake() end
+[Group] - Aircraft > AircraftManager.RegisterFriendly()
+[Group] - Aircraft > AircraftManager.RegisterFriendly() end
+iterating craft number: '3'
+Aircraft (variant) - Friendly(Clone) > FriendlyAircraft.Awake()
+Missile constructor
+Missile(Clone) > Missile.Init
+Aircraft (variant) - Friendly(Clone) > FriendlyAircraft.Awake() end
+[Group] - Aircraft > AircraftManager.RegisterFriendly()
+[Group] - Aircraft > AircraftManager.RegisterFriendly() end
+iterating craft number: '4'
+Aircraft (variant) - Friendly(Clone) > FriendlyAircraft.Awake()
+Missile constructor
+Missile(Clone) > Missile.Init
+Aircraft (variant) - Friendly(Clone) > FriendlyAircraft.Awake() end
+[Group] - Aircraft > AircraftManager.RegisterFriendly()
+[Group] - Aircraft > AircraftManager.RegisterFriendly() end
+iterating craft number: '5'
+Aircraft (variant) - Friendly(Clone) > FriendlyAircraft.Awake()
+Missile constructor
+Missile(Clone) > Missile.Init
+Aircraft (variant) - Friendly(Clone) > FriendlyAircraft.Awake() end
+[Group] - Aircraft > AircraftManager.RegisterFriendly()
+[Group] - Aircraft > AircraftManager.RegisterFriendly() end
+iterating craft number: '6'
+Aircraft (variant) - Friendly(Clone) > FriendlyAircraft.Awake()
+Missile constructor
+Missile(Clone) > Missile.Init
+Aircraft (variant) - Friendly(Clone) > FriendlyAircraft.Awake() end
+[Group] - Aircraft > AircraftManager.RegisterFriendly()
+[Group] - Aircraft > AircraftManager.RegisterFriendly() end
+iterating craft number: '7'
+Aircraft (variant) - Friendly(Clone) > FriendlyAircraft.Awake()
+Missile constructor
+Missile(Clone) > Missile.Init
+Aircraft (variant) - Friendly(Clone) > FriendlyAircraft.Awake() end
+[Group] - Aircraft > AircraftManager.RegisterFriendly()
+[Group] - Aircraft > AircraftManager.RegisterFriendly() end
+iterating craft number: '8'
+Aircraft (variant) - Friendly(Clone) > FriendlyAircraft.Awake()
+Missile constructor
+Missile(Clone) > Missile.Init
+Aircraft (variant) - Friendly(Clone) > FriendlyAircraft.Awake() end
+[Group] - Aircraft > AircraftManager.RegisterFriendly()
+[Group] - Aircraft > AircraftManager.RegisterFriendly() end
+iterating craft number: '9'
+Aircraft (variant) - Friendly(Clone) > FriendlyAircraft.Awake()
+Missile constructor
+Missile(Clone) > Missile.Init
+Aircraft (variant) - Friendly(Clone) > FriendlyAircraft.Awake() end
+[Group] - Aircraft > AircraftManager.RegisterFriendly()
+[Group] - Aircraft > AircraftManager.RegisterFriendly() end
+[Group] - Aircraft > AircraftManager.LoadScenario() end
+GameManager.LoadScenario(1) end
+GameManager.CursorHighlightedEnemyAircraft('Aircraft (variant) - Enemy(Clone) 30')
+Succesfully got LSS_SelectableObject component reference. Calling interaction code...
+[[---LSS Manager---]] > HandleCursorEnterOnInteractable(interactable_passed: 'Aircraft (variant) - Enemy(Clone) 30')
+interactable_passed was on same interaction layer as manager.m_currentInteractionLayer. invoking Event_HighlightedInteractable...
+Now calling interactable_passed.()...
+Debug key triggered...
+ToggleDebugFeatures()
+GlobalDebugOn: 'False'
+GameManager.CursorUnHighlightedEnemyAircraft('Aircraft (variant) - Enemy(Clone) 30')
+Succesfully got LSS_SelectableObject component reference. Calling interaction code...
+GameManager.CursorHighlightedEnemyAircraft('Aircraft (variant) - Enemy(Clone) 30')
+Succesfully got LSS_SelectableObject component reference. Calling interaction code...
+[[---LSS Manager---]] > HandleCursorEnterOnInteractable(interactable_passed: 'Aircraft (variant) - Enemy(Clone) 30')
+GameManager.CursorUnHighlightedEnemyAircraft('Aircraft (variant) - Enemy(Clone) 30')
+Succesfully got LSS_SelectableObject component reference. Calling interaction code...
+GameManager.CursorHighlightedEnemyAircraft('Aircraft (variant) - Enemy(Clone) 31')
+Succesfully got LSS_SelectableObject component reference. Calling interaction code...
+[[---LSS Manager---]] > HandleCursorEnterOnInteractable(interactable_passed: 'Aircraft (variant) - Enemy(Clone) 31')
+GameManager.CursorUnHighlightedEnemyAircraft('Aircraft (variant) - Enemy(Clone) 31')
+Succesfully got LSS_SelectableObject component reference. Calling interaction code...
+GameManager.CursorHighlightedEnemyAircraft('Aircraft (variant) - Enemy(Clone) 26')
+Succesfully got LSS_SelectableObject component reference. Calling interaction code...
+[[---LSS Manager---]] > HandleCursorEnterOnInteractable(interactable_passed: 'Aircraft (variant) - Enemy(Clone) 26')
+GameManager.CursorUnHighlightedEnemyAircraft('Aircraft (variant) - Enemy(Clone) 26')
+Succesfully got LSS_SelectableObject component reference. Calling interaction code...
+GameManager.CursorHighlightedEnemyAircraft('Aircraft (variant) - Enemy(Clone) 18')
+Succesfully got LSS_SelectableObject component reference. Calling interaction code...
+[[---LSS Manager---]] > HandleCursorEnterOnInteractable(interactable_passed: 'Aircraft (variant) - Enemy(Clone) 18')
+GameManager.CursorUnHighlightedEnemyAircraft('Aircraft (variant) - Enemy(Clone) 18')
+Succesfully got LSS_SelectableObject component reference. Calling interaction code...
+GameManager.CursorHighlightedEnemyAircraft('Aircraft (variant) - Friendly(Clone) 7')
+Succesfully got LSS_SelectableObject component reference. Calling interaction code...
+[[---LSS Manager---]] > HandleCursorEnterOnInteractable(interactable_passed: 'Aircraft (variant) - Friendly(Clone) 7')
+interactable_passed was on same interaction layer as manager.m_currentInteractionLayer. invoking Event_HighlightedInteractable...
+Now calling interactable_passed.UnityEngine.Events.UnityAction()...
+GameManager.CursorUnHighlightedEnemyAircraft('Aircraft (variant) - Friendly(Clone) 7')
+Succesfully got LSS_SelectableObject component reference. Calling interaction code...
+GameManager.CursorHighlightedEnemyAircraft('Aircraft (variant) - Friendly(Clone) 8')
+Succesfully got LSS_SelectableObject component reference. Calling interaction code...
+[[---LSS Manager---]] > HandleCursorEnterOnInteractable(interactable_passed: 'Aircraft (variant) - Friendly(Clone) 8')
+interactable_passed was on same interaction layer as manager.m_currentInteractionLayer. invoking Event_HighlightedInteractable...
+Now calling interactable_passed.UnityEngine.Events.UnityAction()...
+GameManager.CursorClicked_action()
+Succesfully got LSS_SelectableObject component reference. Calling interaction code...
+GameManager.CursorUnHighlightedEnemyAircraft('Aircraft (variant) - Friendly(Clone) 8')
+Succesfully got LSS_SelectableObject component reference. Calling interaction code...
+GameManager.CursorHighlightedEnemyAircraft('Aircraft (variant) - Enemy(Clone) 5')
+Succesfully got LSS_SelectableObject component reference. Calling interaction code...
+[[---LSS Manager---]] > HandleCursorEnterOnInteractable(interactable_passed: 'Aircraft (variant) - Enemy(Clone) 5')
+opposing highlight 'Aircraft (variant) - Enemy(Clone) 5 (LSS_SelectableObject)'
+GameManager.CursorClicked_action()
+Succesfully got LSS_SelectableObject component reference. Calling interaction code...
+'Aircraft (variant) - Enemy(Clone) 5' SelectMeAsOpposing()
+'Aircraft (variant) - Friendly(Clone) 8.SelectedMyOpposing_action(). missile active?: 'False'
+SetFocusedEnemy('Aircraft (variant) - Enemy(Clone) 5 (EnemyAircraft)'
+GameManager.CursorUnHighlightedEnemyAircraft('Aircraft (variant) - Enemy(Clone) 5')
+Succesfully got LSS_SelectableObject component reference. Calling interaction code...
+GameManager.CursorHighlightedEnemyAircraft('Aircraft (variant) - Friendly(Clone) 7')
+Succesfully got LSS_SelectableObject component reference. Calling interaction code...
+[[---LSS Manager---]] > HandleCursorEnterOnInteractable(interactable_passed: 'Aircraft (variant) - Friendly(Clone) 7')
+interactable_passed was on same interaction layer as manager.m_currentInteractionLayer. invoking Event_HighlightedInteractable...
+Now calling interactable_passed.UnityEngine.Events.UnityAction()...
+GameManager.CursorUnHighlightedEnemyAircraft('Aircraft (variant) - Friendly(Clone) 7')
+Succesfully got LSS_SelectableObject component reference. Calling interaction code...
+GameManager.CursorHighlightedEnemyAircraft('Aircraft (variant) - Friendly(Clone) 2')
+Succesfully got LSS_SelectableObject component reference. Calling interaction code...
+[[---LSS Manager---]] > HandleCursorEnterOnInteractable(interactable_passed: 'Aircraft (variant) - Friendly(Clone) 2')
+interactable_passed was on same interaction layer as manager.m_currentInteractionLayer. invoking Event_HighlightedInteractable...
+Now calling interactable_passed.UnityEngine.Events.UnityAction()...
+GameManager.CursorClicked_action()
+Succesfully got LSS_SelectableObject component reference. Calling interaction code...
+GameManager.CursorUnHighlightedEnemyAircraft('Aircraft (variant) - Friendly(Clone) 2')
+Succesfully got LSS_SelectableObject component reference. Calling interaction code...
+Aircraft (variant) - Friendly(Clone) 8 > FriendlyAircraft.FireMissile_action()
+Missile(Clone) (UnityEngine.GameObject) > Missile.SetTargetAircraft(Aircraft (variant) - Enemy(Clone) 5)
+GameManager.CursorHighlightedEnemyAircraft('Aircraft (variant) - Friendly(Clone) 3')
+Succesfully got LSS_SelectableObject component reference. Calling interaction code...
+[[---LSS Manager---]] > HandleCursorEnterOnInteractable(interactable_passed: 'Aircraft (variant) - Friendly(Clone) 3')
+GameManager.CursorUnHighlightedEnemyAircraft('Aircraft (variant) - Friendly(Clone) 3')
+Succesfully got LSS_SelectableObject component reference. Calling interaction code...
+TargetHit
+Aircraft (variant) - Enemy(Clone) 5.DamageMe()
+AircraftManager.EnemyDied('Aircraft (variant) - Enemy(Clone) 5 (EnemyAircraft)')
+Aircraft (variant) - Friendly(Clone) 8 > FriendlyAircraft.RelinquishLockOn
+Aircraft (variant) - Friendly(Clone) 8 > FriendlyAircraft.TargetHit_action
+GameManager.CursorHighlightedEnemyAircraft('Aircraft (variant) - Enemy(Clone) 32')
+Succesfully got LSS_SelectableObject component reference. Calling interaction code...
+[[---LSS Manager---]] > HandleCursorEnterOnInteractable(interactable_passed: 'Aircraft (variant) - Enemy(Clone) 32')
+opposing highlight 'Aircraft (variant) - Enemy(Clone) 32 (LSS_SelectableObject)'
+GameManager.CursorClicked_action()
+Succesfully got LSS_SelectableObject component reference. Calling interaction code...
+'Aircraft (variant) - Enemy(Clone) 32' SelectMeAsOpposing()
+'Aircraft (variant) - Friendly(Clone) 2.SelectedMyOpposing_action(). missile active?: 'False'
+SetFocusedEnemy('Aircraft (variant) - Enemy(Clone) 32 (EnemyAircraft)'
+GameManager.CursorUnHighlightedEnemyAircraft('Aircraft (variant) - Enemy(Clone) 32')
+Succesfully got LSS_SelectableObject component reference. Calling interaction code...
+Aircraft (variant) - Enemy(Clone) 5 death reached. Destroying...
+Aircraft (variant) - Enemy(Clone) 5 > EnemyAircraft.DestroyMe()
+[Group] - Aircraft > AircraftManager.RemoveEnemy()
+list valid. Removing enemy aircraft...
+[Group] - Aircraft > AircraftManager.RemoveEnemy() end
+GameManager.CursorHighlightedEnemyAircraft('Aircraft (variant) - Enemy(Clone) 1')
+Succesfully got LSS_SelectableObject component reference. Calling interaction code...
+[[---LSS Manager---]] > HandleCursorEnterOnInteractable(interactable_passed: 'Aircraft (variant) - Enemy(Clone) 1')
+GameManager.CursorUnHighlightedEnemyAircraft('Aircraft (variant) - Enemy(Clone) 1')
+Succesfully got LSS_SelectableObject component reference. Calling interaction code...
+GameManager.CursorHighlightedEnemyAircraft('Aircraft (variant) - Enemy(Clone) 2')
+Succesfully got LSS_SelectableObject component reference. Calling interaction code...
+[[---LSS Manager---]] > HandleCursorEnterOnInteractable(interactable_passed: 'Aircraft (variant) - Enemy(Clone) 2')
+GameManager.CursorUnHighlightedEnemyAircraft('Aircraft (variant) - Enemy(Clone) 2')
+Succesfully got LSS_SelectableObject component reference. Calling interaction code...
+GameManager.CursorHighlightedEnemyAircraft('Aircraft (variant) - Enemy(Clone) 31')
+Succesfully got LSS_SelectableObject component reference. Calling interaction code...
+[[---LSS Manager---]] > HandleCursorEnterOnInteractable(interactable_passed: 'Aircraft (variant) - Enemy(Clone) 31')
+GameManager.CursorUnHighlightedEnemyAircraft('Aircraft (variant) - Enemy(Clone) 31')
+Succesfully got LSS_SelectableObject component reference. Calling interaction code...
 GameManager.ProtectedQuit()
 NamruSessionManager.CloseMe()
 NamruSessionManager.CloseUDPConnection()
-Was going to close udpClient, but found it was already null...
 NamruSessionManager.CloseUDPConnection() end
 NamruSessionManager.DisposeAllWriters()
