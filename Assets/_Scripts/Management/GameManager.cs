@@ -208,10 +208,12 @@ public class GameManager : BM_Object_mono
 	private void HandleUDPString( string s )
 	{
 		NAMRU_Debug.Log( $"{gameObject.name} > {nameof(GameManager)}.{nameof(HandleUDPString)}({s})", BM_Enums.LogDestination.console );
+
 		if( DebugManager.GlobalDebugOn )
 		{
 			DebugManager.Instance.LogMomentarily( s );
 		}
+
 		if( s == command_pause )
 		{
 			PauseBattleScene();
@@ -223,12 +225,12 @@ public class GameManager : BM_Object_mono
 		else if ( s == command_hideQuad )
 		{
 			HideRenderQuad();
-			PauseBattleScene();
+			//PauseBattleScene();
 		}
 		else if ( s == command_showQuad )
 		{
 			ShowRenderQuad();
-			PauseBattleScene();
+			//PauseBattleScene();
 		}
 		else
 		{
